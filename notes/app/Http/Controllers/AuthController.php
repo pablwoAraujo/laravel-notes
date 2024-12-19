@@ -57,7 +57,7 @@ class AuthController extends Controller
             ]
         ]);
 
-        print_r('LOGIN PAPAI');
+        return redirect()->to('/');
     }
 
     public function logout()
